@@ -1,4 +1,4 @@
-txtvel.focus();
+//txtvel.focus();
 function converter() {
   var txtvel = document.getElementById("txtvel");
   var vel = Number(txtvel.value);
