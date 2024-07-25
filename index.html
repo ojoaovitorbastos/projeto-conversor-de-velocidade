@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Conversor de Velocidade</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conversor de Velocidade</h1>
+    </header>
+
+    <section>
+      <div>
+        <p>
+          Velocidade:
+          <input type="number" name="vel" id="txtvel" />
+          <p>
+          <input type="radio" name="checkbox" id="check1" checked/>
+          Quilômetro para Milha
+        </p>
+          <p>
+          <input type="radio" name="checkbox" id="check2" />
+          Milhas para Quilômetro
+        </p>
+          <input type="button" id="converter" value="Converter" onclick="converter()" />
+        </p>
+      </div>
+
+      <div id="res"></div>
+    </section>
+
+    <footer>
+      <p>&copy;JoãoVitor</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
